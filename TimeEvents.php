@@ -16,7 +16,8 @@
   do {
     // Send a message.
     $currentTime = date('h:i:s', time());
-    echo 'data: ' . $currentTime . PHP_EOL;
+    echo 'data:' .'hello:'.PHP_EOL;
+    echo 'data:' . $currentTime . PHP_EOL;
     echo PHP_EOL;
 
     flush();
